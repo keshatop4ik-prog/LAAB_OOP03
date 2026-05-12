@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-    double v_a = 2.0;
-    double v_b = 3.0;
+    double v_a   = 2.0;
+    double v_b   = 3.0;
     double v_eps = 0.0001;
     double result_x;
 
@@ -21,6 +21,5 @@ int main() {
     dyh->newton();
 
     delete dyh;
-
     return 0;
 }
